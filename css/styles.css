@@ -1,0 +1,182 @@
+  body{
+    min-width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+  }
+
+  span {
+    font-weight: bold;
+    color: black;
+  }
+
+  p, h2{
+    margin: 0;
+  }
+
+  .clearfix{
+    clear: both;
+  }
+
+  nav {
+    width: 100%;
+    height: 85px;
+    background: linear-gradient(90deg, rgba(24,10,255,1) 0%, rgba(0,0,219,1) 21%, rgba(10,98,233,1) 46%, rgba(0,212,255,1) 100%);
+    position: fixed;
+    z-index: +1;
+    box-shadow: -1px 3px 6px 0px rgba(0,0,0,0.32);
+  }
+
+  .centers-the-divs-content {
+    position: relative;
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 465px;
+    top: 15px;
+  }
+
+  .titulo {
+    width: 600px;
+    height: 85px;
+    font-size: 30px;
+    font-family: 'Verdana';
+    float: left;
+    border-radius: 0px 0px 200px 0px;
+    color: white;
+    text-align: center;
+  }
+
+  .titulo h1 {
+    margin: 16px 0;
+  }
+
+  #buscador {
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    border-style: none;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    font-weight: lighter;
+  }
+
+  #contains-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .container {
+    padding: 100px 15px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    position: relative;
+    max-width: 1440px;
+  }
+
+  .card {
+    width: 19%;
+    height: 438px;
+    flex: 0 0 auto;
+    padding: 20px 7px 0 7px;
+  }
+
+  .item {
+    min-height: 310px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -1px 3px 6px 0px rgba(0,0,0,0.32);
+  }
+
+  .item p {
+    margin-top: 5px;
+  }
+
+  .coin-image {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border:200px;
+    position: relative;
+  }
+
+  .cap-rank{
+    width: 20%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    background-color: #d82525;
+    padding: 10px 5px;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 5px;
+    position: absolute;
+    box-shadow: -1px 3px 6px 0px rgba(0,0,0,0.32);
+  }
+
+  .coin-image img{
+    width: 100%;
+    height: 274px;
+  }
+
+  .coin-content {
+    padding: 20px;
+    height: 120px;
+    background-color: #dadada45;
+  }
+
+  .coin-name {
+    font-weight: bold;
+    display: inline;
+  }
+
+  .coin-symbol {
+    display: inline;
+    color: gray;
+  }
+
+  .price-range-24h {
+    color: green;
+  }
+
+  footer {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(90deg, rgba(24,10,255,1) 0%, rgba(0,0,219,1) 21%, rgba(10,98,233,1) 46%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-family: 'Verdana';
+  }
+
+  .footer-content {
+    padding: 20px 0;
+  }
+
+  .footer-content a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer-content a:hover {
+    transition: .5s;
+    color: #00d4ff;
+  }
+
+  .footer-content h2 {
+    font-size: 40px;
+  }
+
+  ul {
+    padding-inline-start: 0;
+  }
+
+  li {
+    font-size: 20px;
+    list-style: none;
+  }
